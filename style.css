@@ -1,0 +1,137 @@
+body{
+    font-family: "Gloria Hallelujah", cursive;
+    background-color: yellowgreen
+}
+header{
+    background-color: rgb(142, 142, 235);
+    padding: 10px;
+    border: 2px;
+    border-radius: 10%;
+}
+
+.flex {
+    display: flex;
+}
+  
+.center {
+    margin: 0px auto;
+}
+
+#homme-barbu{
+    width: 200px;
+    border-radius: 100%;
+}
+
+#titre-header {
+    margin: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 15px;
+    border-left: 2px solid black;
+}
+
+main{
+    display: flex;
+}
+/*---*/
+#col-laterale{
+    background-color: rgb(73, 73, 210);
+    padding: 10px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 15%;
+}
+#langues{
+    background-color: greenyellow;
+    padding: 10px;
+    width: auto;
+    border: 1px;
+    border-radius: 10%;
+}
+#col-laterale > ul {
+    list-style: none;
+}
+/*---*/
+#contenu{
+    background:  linear-gradient(90deg, rgba(166,166,91,1) 27%, rgba(118,116,166,1) 51%, rgba(134,139,162,1) 69%);
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+ul > li{
+    list-style: none;
+}
+/*---*/
+#etudes{
+    background: linear-gradient(90deg, rgba(2,0,36,0.7261029411764706) 0%, rgba(166,106,91,1) 14%, rgba(0,212,255,1) 84%);
+    position: relative;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+/*---*/
+footer{
+    background-color: antiquewhite;
+    border-radius: 10%;
+}
+ul > li{
+    margin: 10px;
+    
+}
+#coordonnees-tel, #coordonnees-mail, #coordonnees-adresse {
+list-style: none;
+}
+
+#coordonnees-tel:before, #coordonnees-mail:before, #coordonnees-adresse:before {
+content: "";
+background-size:100%;
+width: 25px;
+height: 25px;
+position: absolute;
+margin: -2px 0 0 -30px;
+}
+
+#coordonnees-tel:before {
+background-image: url("/images/téléphone.png");
+}
+
+#coordonnees-mail:before {
+background-image: url("/images/mail.png");
+}
+
+#adresse:before {
+background-image: url("/images/location.png")
+}
+.tel{
+    margin-left: auto;
+}
+
+#col-laterale2{
+    background-color: cyan;
+    padding: 10px;
+    width: 15%;
+    border-radius: 10%;
+}
+#contact{
+    background-color: yellowgreen;
+    border: 3px solid black;
+    width: fit-content;
+    padding: 10px 40px;
+    margin: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+#contact:hover{
+    background-color: pink;
+    border-color: brown;
+    color: white;
+    transform: scale(1.15);
+    
+
+}
